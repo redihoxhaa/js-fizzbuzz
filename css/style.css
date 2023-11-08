@@ -4,17 +4,65 @@
 
 /* #region TYPOGRAPHY */
 
+body {
+    background-color: rgb(250, 243, 228);
+}
+
+.green {
+    background-color: rgb(29, 185, 146);
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.gold {
+    background-color: gold;
+    font-weight: bold;
+    font-size: 1.15rem;
+
+}
+
+.purple {
+    background-color: rgb(121, 62, 170);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.grey {
+    background-color: rgb(167, 191, 214);
+}
+
 /* #endregion TYPOGRAPHY */
 
 /* #region COMMON */
+
+
 
 /* #endregion COMMON */
 
 /* #region HEADER */
 
+h1 {
+    text-align: center;
+    font-size: 6vw;
+    padding: 2rem 0;
+}
+
 /* #endregion HEADER */
 
 /* #region MAIN */
+
+#element-list li {
+    list-style-type: none;
+    margin: 1rem;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* #endregion MAIN */
 
